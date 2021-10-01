@@ -77,7 +77,7 @@ void setup() //<>//
     matProj.m[2][3] = 1;
     matProj.m[3][3] = 0;
     //mesh = ReadFile(amg);
-    //mesh = ReadFile(sofLiberty);
+    mesh = ReadFile(sofLiberty);
     //mesh = ReadFile(humanoid);
     //mesh = ReadFile(outrage);
     //mesh = ReadFile(polyBeach);
@@ -91,15 +91,15 @@ void draw()
   //outrage
   //DrawMesh(mesh, 4, fTheta, fTheta, fTheta, 0, 0, 4);
   //Statue of Liberty
-  //DrawMesh(mesh, 1.7, 3.14159, fTheta, 0, 0, 1, 5);
+  DrawMesh(mesh, 1.7, 3.14159, fTheta, 0, 0, 1, 5);
   //Humanoid
   //DrawMesh(mesh, 0.5, fTheta, fTheta, fTheta, 0, 0, 30);
   //PolyBeach
   //DrawMesh(mesh, 0.1, 3.14159+0.4,fTheta,0, 0,1.5,8);
   //Cube
-  DrawMesh(meshCube, 1, fTheta/2, fTheta*2, fTheta, 0, 0, 5);
+  //DrawMesh(meshCube, 1, fTheta/2, fTheta*2, fTheta, 0, 0, 5);
   //AMG Car
-  //DrawMesh(mesh, 1.7, 3.14159, fTheta, 0, 0, 1, 15);
+  //DrawMesh(mesh, 0, 3.14159, fTheta, 0, 0, 1, 15);
 }
 
 
